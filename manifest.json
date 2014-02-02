@@ -1,0 +1,55 @@
+{
+  "AppName": {
+    "en": "Metalgurus"
+  },
+  "AppURL": "http://www.metalgurus.com",
+  "BundleIdentifier": "metalgurus",
+  "AppDescription": {
+    "en": "Discover the most recent Heavy Metal albums here in Metalgurus"
+  },
+  "AppIcon": {
+    "18x18": "images/icons/icon-18x18.png",
+    "32x32": "images/icons/icon-32x32.png",
+    "64x64": "images/icons/icon-64x64.png",
+    "128x128": "images/icons/icon-128x128.png",
+    "300x300": "images/icons/icon-300x300.png"
+  },
+  "AcceptedLinkTypes": [
+    "playlist",
+    "artist",
+    "album",
+    "track"
+  ],
+  "BundleType": "Application",
+  "BundleVersion": "0.2",
+  "DefaultTabs": [
+    {
+      "arguments": "index",
+      "title": {
+        "en": "Home"
+      }
+    },
+    {
+      "arguments": "hardrock",
+      "title": {
+        "en": "HARD-ROCK"
+      }
+    },
+    {
+      "arguments": "black",
+      "title": {
+        "en": "BLACK"
+      }
+    }
+  ],
+  "Dependencies": {
+    "api": "1.38.0",
+    "views": "1.18.1"
+  },
+  "RequiredPermissions": [ "https://*.metalgurus.com" ],
+  "SupportedDeviceClasses" : ["Desktop","Tablet"],
+  "SupportedLanguages": [
+    "en"
+  ],
+  "VendorIdentifier": "com.metalgurus"
+}
