@@ -69,6 +69,10 @@ a {
   margin: 5px 0;
 }
 
+.see_more {
+  float:right;
+}
+
 #footer {
   margin-top: 10px;
 }

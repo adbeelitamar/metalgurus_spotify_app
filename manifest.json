@@ -46,7 +46,7 @@
     "api": "1.38.0",
     "views": "1.18.1"
   },
-  "RequiredPermissions": [ "https://*.metalgurus.com" ],
+  "RequiredPermissions": [ "https://adbeel.cloudant.com" ],
   "SupportedDeviceClasses" : ["Desktop","Tablet"],
   "SupportedLanguages": [
     "en"
