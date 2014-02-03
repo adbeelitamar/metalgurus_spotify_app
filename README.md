@@ -1,4 +1,6 @@
 metalgurus_spotify_app
 ======================
 
-Metalgurus Spotify App
+New Realeases in Hard-Rock, Heavy Classic, Black, Progressive/Power, Gothic/Symphonic, Trash/Death Metal Bands.
+
+
