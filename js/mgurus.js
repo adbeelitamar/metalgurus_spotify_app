@@ -79,4 +79,18 @@ require(['$api/models', '$views/image#Image'], function(models, Image) {
       });
     }
 
+    if ($("#death_recent").length > 0) {
+      var url = 'https://adbeel.cloudant.com/death/_design/latestDoc/_view/latestView?descending=true&limit=5';
+      $.getJSON(url, {}, function(data) {
+        setRecent(data.rows, 'death_recent');
+      });
+    }
+
+    if ($("#gothic_recent").length > 0) {
+      var url = 'https://adbeel.cloudant.com/gothic/_design/latestDoc/_view/latestView?descending=true&limit=5';
+      $.getJSON(url, {}, function(data) {
+        setRecent(data.rows, 'gothic_recent');
+      });
+    }
+
 });

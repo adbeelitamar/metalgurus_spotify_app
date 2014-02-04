@@ -28,19 +28,7 @@
       "title": {
         "en": "Home"
       }
-    },
-    {
-      "arguments": "hardrock",
-      "title": {
-        "en": "HARD-ROCK"
-      }
-    },
-    {
-      "arguments": "black",
-      "title": {
-        "en": "BLACK"
-      }
-    }
+    }    
   ],
   "Dependencies": {
     "api": "1.38.0",
